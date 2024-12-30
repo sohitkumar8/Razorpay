@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    
+   
+    <!-- --Navbar-- -->
 
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
@@ -86,8 +87,19 @@
                 <button class="py-3 px-5  font-mullish text-white border-lightBlue cursor-pointer 
             border rounded-sm text-sm font-bold">Log in</button>
 
-            <button class="py-3 px-4 font-mullish text-lightBlue300 bg-white cursor-pointer
-            font-bold rounded-sm text-sm border transition-all duration-200 hover:text-lightBlue500">Sign Up</button>
+            <button class="py-3 flex px-4 font-mullish text-lightBlue300 bg-white cursor-pointer
+            font-bold rounded-sm text-sm border transition-all duration-200 hover:text-lightBlue500">Sign Up
+            <svg
+              viewBox="0 0 24 24"
+              focusable="false"
+              class="w-[17px] h-[17px] ml-3"
+            >
+              <path
+                fill="currentColor"
+                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+              ></path>
+            </svg>
+            </button>
 
             </div>
             
@@ -97,6 +109,100 @@
         </div>
         
     </nav>
+    
+    <!-- Hero Section  -->
+
+    <section class="relative bg-deepBlue">
+
+        <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+            <!-- left part -->
+            <div class="space-y-8">
+                <h1 class="font-mullish font-bold text-[40px] text-white leading-[1.2]">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+                    Accept payments from customers. Automate payouts to vendors &
+                    employees. Never run out working capital.
+                </p>
+                <button
+                class="font-mullish font-bold bg-lightBlue text-white rounded-md
+                hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
+                >Sign Up Now</button>
+            </div>
+        
+            <!-- right part -->
+        
+            <img src="/Images/hero-illustration.jpg" alt=""
+            class="max-w-[680px]">
+        
+
+        </div>
+        
+        <!-- shape part -->
+         <div class="absolute left-0 right-0 w-[103%]">
+            <img src="/Images/hero-shape.svg" alt=""
+            class="w-full object-fill">
+         </div>
+        
+        
+        
+    </section>
+
+    <!-- feature section -->
+     <section>
+        <img src="/Images/feature-section1-dottedrows.png" alt=""
+        height="167" width="233" loading="lazy">
+        <img src="/Images/feature-section1-dottedrows.png" alt=""
+        width="233" height="167" loading="lazy">
+        
+        <div>
+            <!-- heading  -->
+             <h2>Accept Payment with Razorpay Payment Suite</h2>
+             <div></div>
+
+             <!-- content box -->
+              <div>
+                <!-- left part -->
+                 <div>
+                    <h3>Supercharge your business with the all-powerful
+                        <span class="text-lightBlue">Payment Geteway</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <span>100+ Payment Methods</span>
+                        </li>
+                        <li>
+                            <span>Industry Leading Success Rate</span>
+                        </li>
+                        <li>
+                            <span>Superior Checkout Experience</span>
+                        </li>
+                        <li>
+                            <span>Easy to Integrate</span>
+                        </li>
+                        <li>
+                            <span>Instant Settlements from day 1</span>
+                        </li>
+                        <li>
+                            <span>In-depth Reporting and Insights</span>
+                        </li>
+                    </ul>
+
+                    <!-- for buton and hyperlink  -->
+                     <div>
+                        <button>Sign Up Now</button>
+                        <!-- hyperlink  -->
+                         <div>
+                            <a href="">Know More</a>
+                            <i></i>
+                         </div>
+                     </div>
+                    
+                 </div>
+                 <img src="./Images/payment-suite.png" alt="">
+              </div>
+        </div>
+        
+     </section>
     
 </body>
 </html>
